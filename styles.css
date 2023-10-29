@@ -59,11 +59,16 @@ h1{ /*This website is awesome */
 
 
 img{ /* tolfo */
-    width: 400px;
-    height: 250px;
-    padding-left: 250px;
+    width: 100%;
+    height: 100%;
+ 
 }
 
+img.tolfo{
+    width: 400px;
+    height: 250px;
+    padding-bottom: 50px;
+}
 
 button{
     cursor: pointer;
@@ -91,6 +96,13 @@ button.signup{
     padding-bottom: 20px;
 }
 
+ul.images{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
 /* Footer content  */
 
 .footer{
@@ -110,6 +122,56 @@ img.pexels{
 
 li.examples{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+ul.text{
     color: #1F2937;
+}
+
+p.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p.inspirational{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    border: 20px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+.credit{
+    display: flex;
+    justify-content: end;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.ad{
+    background-color: #3882F6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 10px;
+
 }
